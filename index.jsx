@@ -2,6 +2,9 @@ import { FolderCode, Globe, Lock, Plus } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
+import Box from "@/components/Box";
+import Button from "@/components/Button";
+import InputBox from "@/components/InputBox";
 import { fetchRepoPRList } from "@/features/pullRequest/prApi";
 import PRCardDetail from "@/features/pullRequest/PRCardDetail";
 import { fetchBrancheListByRepoId } from "@/features/repository/repoApi";
