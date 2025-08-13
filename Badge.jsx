@@ -13,9 +13,6 @@ const Badge = ({
   const variantClasses = {
     default: "bg-gray-100 text-gray-800",
     success: "bg-green-100 text-green-800",
-    warning: "bg-yellow-100 text-yellow-800",
-    orange: "bg-orange-100 text-orange-800",
-    pink: "bg-pink-100 text-pink-800",
     teal: "bg-teal-100 text-teal-800",
     cyan: "bg-cyan-100 text-cyan-800",
     indigo: "bg-indigo-100 text-indigo-800",
